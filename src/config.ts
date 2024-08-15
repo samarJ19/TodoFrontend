@@ -1,1 +1,1 @@
-export const BACKEND_URL="https://backend.samarjoshij.workers.dev"
+export const BACKEND_URL="https://todobackend.samarjoshij.workers.dev"
