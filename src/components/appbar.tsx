@@ -15,6 +15,7 @@ export const Appbar=()=>{
         <button className=" bg-transparent hover:bg-blue-500 text-black-700 font-semibold
          hover:text-white py-2 px-4 border border-black-500 hover:border-transparent rounded" onClick={async ()=>{
             try{
+                //@ts-ignore
                 const response=await axios.post(BACKEND_URL+"/logout",{},{
                     withCredentials:true
                 })
